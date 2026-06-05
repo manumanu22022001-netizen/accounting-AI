@@ -3,7 +3,7 @@ import time
 import random
 
 # Set up the page
-st.title("💼 Accounting Assistant Chatbot")
+st.title("Welcome Kudo's")
 st.write("Ask me questions about accounting, bookkeeping, financial statements, and more!")
 
 # Initialize chat history
