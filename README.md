@@ -1,5 +1,5 @@
-# 💼 Accounting Assistant Chatbot
-
+Welcome kudo's 
+What is a balance sheet
 A Streamlit-based chatbot that provides accounting, bookkeeping, and financial guidance.
 
 ## Features
