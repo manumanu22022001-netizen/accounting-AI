@@ -16,7 +16,23 @@ if not st.session_state.messages:
         "role": "assistant", 
         "content": "Hello! I'm your accounting assistant. I can help you with:\n\n• **Bookkeeping** questions\n• **Financial statements** explanations\n• **Tax** guidance\n• **Accounting principles** (GAAP, IFRS)\n• **Business finance** advice\n\nWhat would you like to know about?"
     }
-    st.session_state.messages.append(welcome_msg)
+   {
+  "IFRS_ASSET": {
+    "label": "Asset",
+    "type": "concept",
+    "source": "IFRS Conceptual Framework"
+  },
+  "IFRS_16": {
+    "label": "Leases",
+    "type": "standard",
+    "source": "IFRS Accounting Standards"
+  },
+  "IFRS_RECOGNITION": {
+    "label": "Recognition",
+    "type": "concept",
+    "source": "IFRS Conceptual Framework"
+  }
+} st.session_state.messages.append(welcome_msg)
 
 # Display chat messages from history
 for message in st.session_state.messages:
