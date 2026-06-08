@@ -1,0 +1,17 @@
+{
+  "IFRS_ASSET": {
+    "label": "Asset",
+    "type": "concept",
+    "source": "IFRS Conceptual Framework"
+  },
+  "IFRS_16": {
+    "label": "Leases",
+    "type": "standard",
+    "source": "IFRS Accounting Standards"
+  },
+  "IFRS_RECOGNITION": {
+    "label": "Recognition",
+    "type": "concept",
+    "source": "IFRS Conceptual Framework"
+  }
+}
